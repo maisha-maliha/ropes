@@ -1,2 +1,2 @@
 # ropes
-A social media app like threads
+A social media app like reddit
