@@ -9,5 +9,5 @@ const sess = session({
         maxAge: 60000
     }
 });
-
+sess.username = 'maluma';
 module.exports = {sess};

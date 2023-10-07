@@ -1,12 +1,10 @@
 const user = require('../models/userList');
 
-
-
-async function findUser(uname,  upassword){
+async function findUser(uname){
     const users = await user.getUserList();
     let exist = false;
     users.forEach((item)=>{
-        if (item.username == uname && item.password == upassword){ 
+        if (item.username == uname){ 
             console.log('found');
             exist =  true;
         }
@@ -14,4 +12,4 @@ async function findUser(uname,  upassword){
     return exist;
 }
 
-findUser('maluma', 'hi');
+module.exports = findUser;

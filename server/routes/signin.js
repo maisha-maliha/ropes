@@ -1,14 +1,15 @@
-const {app, sess} = require('../app');
+const express = require('express');
+const router = express.Router();
+const session = require('../middleware/session');
+const authenticate = require('../middleware/authentication');
 
 // SIGN IN  
-app.post('/signin',(req,res)=>{
-    const user_exist = finduser(req.body.username,req.body.password);
+router.post('/signin',(req,res)=>{                  
+    const user_exist = authenticate(req.body.username,req.body.password);
     if(user_exist){
-        req.sess.username = req.body.username;
-        res.redirect('/profile');
+        req.session.username = req.body.username;
+        res.redirect(`/u/${req.body.username}`); 
     }
 })
-app.get('/hi', (req, res)=>{
-    console.log('its working')
-    res.end('hi')
-})
+
+module.exports = router;
