@@ -1,0 +1,11 @@
+[{
+  "_id": {
+    "$oid": "6520ea0f8b2dd9c6d6fecbef"
+  },
+  "username": "gaming",
+  "admin": "maluma",
+  "followers": 1,
+  "posts": [
+    1
+  ]
+}]

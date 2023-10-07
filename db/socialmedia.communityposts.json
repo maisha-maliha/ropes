@@ -1,0 +1,12 @@
+[{
+  "_id": {
+    "$oid": "6520ea9b8b2dd9c6d6fecbf0"
+  },
+  "id": 1,
+  "community": "gaming",
+  "user": "maluma",
+  "title": "what game are you playing?",
+  "body": "i want to try new game",
+  "like": 1,
+  "comments": []
+}]

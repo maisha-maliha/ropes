@@ -16,7 +16,7 @@ export default function Routing(){
                 <Route path ='/' element ={ <MainLayout/> } >
                     <Route index element ={ <Home/> } />
                     <Route path ='signin' element ={ <Signin/> } />
-                    <Route path ='sigup' element ={ <Signup/> } />
+                    <Route path ='signup' element ={ <Signup/> } />
                     <Route path ='u/:username'>
                         <Route index element ={ <Profile/> } />
                         <Route path ='inbox' element ={ <Inbox/> } />

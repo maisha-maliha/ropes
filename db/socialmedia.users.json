@@ -1,0 +1,13 @@
+[{
+  "_id": {
+    "$oid": "6520da9c7283aebce937cd9a"
+  },
+  "name": "maluma baby",
+  "username": "maluma",
+  "password": "hi",
+  "friends": [],
+  "posts_id": [],
+  "communities": [
+    "gaming"
+  ]
+}]

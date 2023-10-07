@@ -10,7 +10,7 @@ export default function Navbar(){
                 </div>
                 <div>
                     <select className='py-2 px-4 md:mb-0 mb-3 md:w-60 w-36 md:col-start-1 md:col-end-2 rounded text-slate-400 bg-cyan-950' name="community" id="">
-                        <option value="home"> Home</option>
+                        <option value="home"> u/Home</option>
                         <option value="u/profile"> u/profile</option>
                         <option value="c/askanything"> c/askanything </option>
                         <option value="c/gaming"> c/gaming </option>

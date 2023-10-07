@@ -1,0 +1,11 @@
+[{
+  "_id": {
+    "$oid": "6520dc3c7283aebce937cd9b"
+  },
+  "title": "this is my first post",
+  "body": "i am new here. how are you all doing?",
+  "id": 1,
+  "username": "maluma",
+  "likes": 2,
+  "comments": []
+}]
